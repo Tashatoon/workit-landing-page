@@ -1,13 +1,12 @@
 .container {
-   height: 900px;
-  width:1300px;
+   height: 800px;
+  width:125%;
   background-color: rgb(77, 12, 137);
-  border-radius: 50%;
+  border-radius: 45%;
   position: relative;
-  top: -300px;
-  left: -50px;
-  padding: 0%;
-  margin: auto 0;
+  top: -150px;
+  left: -230px;
+
 
 }
 
@@ -15,25 +14,24 @@
   color: rgb(248, 240, 240);
   font-size: 1.4em;
   position: relative;
-  left: 78%;
-  top: 45%;
+  left: 1750px;
+  top: 200px;
 }
 
 .container h1 {
   color: rgb(244, 239, 239);
   font-size: 4em;
   text-align: center;
-  position: relative;
-  top: 40%;
+ position: relative;
+ top: -70px;
 }
 
 .button {
-  width: 5%;
- height: 5%;
+ padding: 15px;
  background-color: rgb(167, 221, 85);
 position: relative;
 left: 48%;
-top: 40%
+top: -100px;
 }
 
 .features {
@@ -54,3 +52,8 @@ margin: 0%;
     padding: 60px;
 }
 
+img {
+  position: relative;
+  top: 190px;
+  left: 55px;
+}
