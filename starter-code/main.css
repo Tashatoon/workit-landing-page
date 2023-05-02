@@ -1,16 +1,27 @@
 .container {
-    background-color: blueviolet;
+    background-color: rgb(77, 12, 137);
     margin: 0%;
     padding: 0%;
 }
 
 .container nav {
-  text-align: right;
+  color: white;
+  position: relative;
+  left: 78%;
 }
-
+.container h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+.button {
+position: relative;
+left: 48%;
+}
 .features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 60px;
 }
