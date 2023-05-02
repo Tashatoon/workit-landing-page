@@ -1,11 +1,14 @@
 .container {
-   height: 1200px;
-            width: 110%;
-            background-color: rgb(77, 12, 137);
-            border-radius: 30%;
-            position: relative;
-            top: -400px;
-            left: -100px;
+   height: 900px;
+  width:1300px;
+  background-color: rgb(77, 12, 137);
+  border-radius: 50%;
+  position: relative;
+  top: -300px;
+  left: -50px;
+  padding: 0%;
+  margin: auto 0;
+
 }
 
 .container nav {
@@ -13,7 +16,7 @@
   font-size: 1.4em;
   position: relative;
   left: 78%;
-  top: 35%;
+  top: 45%;
 }
 
 .container h1 {
