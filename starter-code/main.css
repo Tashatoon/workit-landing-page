@@ -1,17 +1,22 @@
 .container {
+  height: 400px;
     background-color: rgb(77, 12, 137);
-    margin: 0%;
-    padding: 0%;
+   height: 700px;
+            width: 100%;
+            background-color: rgb(77, 12, 137);
+            border-radius: 30%;
+            position: relative;
+            top: -160px;
 }
 
 .container nav {
-  color: white;
+  color: rgb(70, 9, 9);
   position: relative;
   left: 78%;
 }
 
 .container h1 {
-  color: white;
+  color: rgb(187, 52, 52);
   font-size: 2em;
   text-align: center;
 }
