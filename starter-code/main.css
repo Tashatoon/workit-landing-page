@@ -9,19 +9,33 @@
   position: relative;
   left: 78%;
 }
+
 .container h1 {
   color: white;
   font-size: 2em;
   text-align: center;
 }
+
 .button {
 position: relative;
 left: 48%;
 }
+
+.features {
+  position: relative;
+  left: 10%;
+}
+
+.features-items-description {
+width: 25%;
+text-align: center;
+margin: 0%;
+}
+
 .features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
     padding: 60px;
 }
+
