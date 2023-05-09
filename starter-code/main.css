@@ -1,12 +1,12 @@
 
 /*Create a div for a responsive oval/ background*/
 .oval {
-background-color: aqua;
+background-color: rgb(42, 57, 57);
 position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0%;
+  left: 0%;
   height: 50%;
-  width: 50%;
+  width: 100%;
   border-radius: 150px 150px 0 0;
   transform: rotate(-180deg);
 
