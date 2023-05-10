@@ -1,48 +1,49 @@
-.container {
-  width: 100%;
-  height: 100%;
-}
-
 .container nav {
-  color: rgb(25, 4, 4);
+  color: rgb(85, 174, 101);
   font-size: 1.4em;
-float: right;
+  float: right;
+  position: relative;
+  top: -950px;
 }
-
 
 .container h1 {
-  color: rgb(10, 1, 1);
+  color: rgb(27, 184, 63);
   font-size: 4em;
-  text-align: center;
+  display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -1100px;
 
 }
 
 .button {
- padding: 15px;
  background-color: rgb(167, 221, 85);
 display: block;
 margin-left: auto;
 margin-right: auto;
+position: relative;
+top: -1100px;
 }
+
 .oval {
   margin: auto 0;
   padding: 0%;
-background-color: rgb(130, 141, 215);
+background-color: rgb(69, 13, 100);
 position: relative;
-            top: -220px;
-            left: -100px;
-            height: 700px;
-            width: 2100px;
-            border-radius: 50%;
-            transform: rotate(180deg);
+top: -300px;
+left: -100px;
+height: 950px;
+width: 2100px;
+border-radius: 35%;
 }
 
 .oval::after {
   content: "";
-  padding-bottom: 30%;
+  padding: 0%;
   display: block;
-  
 }
+
 .founder-photo img {
   width: 15%;
   position: relative;
@@ -70,11 +71,13 @@ margin: 0%;
   position: relative;
 
 }
+
 .container img {
   position: relative;
-  top: 190px;
-  left: 55px;
+  top: -850px;
+  left: -100px;
 }
+
 body img {
   position: relative;
   top: -300px;
