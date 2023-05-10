@@ -1,36 +1,20 @@
-
-/*Create a div for a responsive oval/ background*/
-.oval {
-background-color: rgb(42, 57, 57);
-position: absolute;
-  top: 0%;
-  left: 0%;
-  height: 50%;
+.container {
   width: 100%;
-  border-radius: 150px 150px 0 0;
-  transform: rotate(-180deg);
-
+  height: 100%;
 }
 
-.oval::after {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
-  
-}
 .container nav {
-  color: rgb(248, 240, 240);
+  color: rgb(25, 4, 4);
   font-size: 1.4em;
-  display: inline;
-  
+float: right;
 }
+
 
 .container h1 {
-  color: rgb(244, 239, 239);
+  color: rgb(10, 1, 1);
   font-size: 4em;
   text-align: center;
- position: relative;
- top: -70px;
+
 }
 
 .button {
@@ -39,10 +23,26 @@ position: absolute;
 display: block;
 margin-left: auto;
 margin-right: auto;
+}
+.oval {
+  margin: auto 0;
+  padding: 0%;
+background-color: rgb(130, 141, 215);
 position: relative;
-top: -100px;
+            top: -220px;
+            left: -100px;
+            height: 700px;
+            width: 2100px;
+            border-radius: 50%;
+            transform: rotate(180deg);
 }
 
+.oval::after {
+  content: "";
+  padding-bottom: 30%;
+  display: block;
+  
+}
 .founder-photo img {
   width: 15%;
   position: relative;
@@ -86,7 +86,4 @@ body img {
   display: block;
   margin-left: auto;
   margin-right: auto;
- position: relative;
- top: -105px;
- 
 }
